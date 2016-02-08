@@ -7,3 +7,7 @@ module	Prime
 		true
 	end
 end
+
+1.upto(100) do |n|
+	puts n if Prime.prime?(n)
+end
